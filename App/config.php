@@ -92,5 +92,6 @@ $app['doctrine.manager'] = $app->share(
 /**
  * include routes
  */
-require_once __DIR__ . '/../App/route.php';
+require 'route.php';
 
+return $app;

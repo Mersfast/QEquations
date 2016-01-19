@@ -1,0 +1,21 @@
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false"
+         bootstrap = "config.php"
+        >
+    <testsuites>
+        <testsuite name="equation">
+            <directory>./Tests/</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <server name = "App_Dir" value = "/domains/projects/project_1/Web/index.php" />
+    </php>
+</phpunit>

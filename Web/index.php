@@ -3,7 +3,7 @@
 /**
  *  include configuration file
  */
-require_once __DIR__.'/../App/config.php';
+require __DIR__.'/../App/config.php';
 
 /**
  *   start application

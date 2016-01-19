@@ -43,7 +43,7 @@ class WorkDatabase
     {
         $newEquations = new Equation($data['coefA'], $data['coefB'], $data['coefC']);
         $this->app['orm.em']->persist($newEquations);
-       $this->app['orm.em']->flush();
+        $this->app['orm.em']->flush();
 
        return $newEquations->getId();
     }
